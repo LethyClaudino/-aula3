@@ -9,13 +9,71 @@
         body
         {
             width: 100%;
+            height: 100vh;
             margin: 0;
-            background-image: linear-gradient(to bottom, blue, violet);
+            background-image: linear-gradient(to bottom, black  , violet);
+            display: flex;
+            flex-direction: column; /*Ajusta a linha*/
+            justify-content: space-around; /* Horizontal */
+            justify-items: center;
+            align-content: space-around; /* Vertical */
+            align-items: center;  
+        }
+        .conteudo
+        {
+           width: 300px; /*largura da div*/
+           height: 200px; /*altura da div*/
+           background-image: linear-gradient(to bottom, aqua, red, yellow );  
+           color: white;
+            text-align: justify; /*Alinhamento do texto */
+
+        }
+        .conteudo2
+        {
+           width: 300px; /*largura da div*/
+           height: 200px; /*altura da div*/
+           background-image: linear-gradient(to bottom, yellow, red, aqua);
+           font-size: large; /*tamanho da fonte*/
+           color: white;
+            text-align: justify; /*Alinhamento do texto */
+
+        }
+        .conteudo3
+        {
+           width: 300px; /*largura da div*/
+           height: 200px; /*altura da div*/
+           background-image: linear-gradient(to bottom, aqua, red, yellow );  
+           color: white;
+            text-align: justify; /*Alinhamento do texto */
+
+        }
+        .conteudo4
+        {
+           width: 300px; /*largura da div*/
+           height: 200px; /*altura da div*/
+           background-image: linear-gradient(to bottom, yellow, red, aqua);
+           font-size: large; /*tamanho da fonte*/
+           color: white;
+            text-align: justify; /*Alinhamento do texto */
+
         }
     </style>
 </head>
 <body>
 
+<div class="conteudo">
+    dentro
 
+</div>
+<div class="conteudo2">
+    fora
+</div>   
+    <div class="conteudo3">
+        dentro
+   
+    </div>
+    <div class="conteudo4">    
+   fora
+ </div>
 </body>
 </html>
